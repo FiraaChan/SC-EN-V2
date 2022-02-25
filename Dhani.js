@@ -496,22 +496,22 @@ menu =`Hi ${pushname} ${sayingtime}
 
 
 ╭─⬣ 「 TODAY 」 ⬣
-│🔖 ${date}
-│🔖 ${waktu}
-│🔖 ${sayingtime}
+│📊 ${date}
+│⏱️ ${waktu}
+│🟡 ${sayingtime}
 └⬣
 
 ╭─⬣ 「 INFO BOT 」 ⬣
-│🔖 Bot name : ${botname}
-│🔖 Owner name : ${ownername}
-│🔖 Owner number : @${owner2.split("@")[0]}
-│🔖 Runtime : ${runtime(process.uptime())}
-│🔖 Speed : ${latensie.toFixed(4)} second
+│🚀 Bot name : ${botname}
+│👩‍🦰 Owner name : ${ownername}
+│📱 Owner number : @${owner2.split("@")[0]}
+│📌 Runtime : ${runtime(process.uptime())}
+│🗿 Speed : ${latensie.toFixed(4)} second
 └⬣
 
 ╭─⬣ 「 INFO USER 」 ⬣
-│🔖 User name : ${pushname}
-│🔖 User number : @${senderr.split("@")[0]}
+│👤 User name : ${pushname}
+│📞 User number : @${senderr.split("@")[0]}
 └⬣`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_© ${ownername} || 2022_*`, buttons: [{ buttonId: `${prefix}allmenu`, buttonText: { displayText: '𝘼𝙇𝙇𝙈𝙀𝙉𝙐' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,owner2]}}}, 'buttonsMessage')
 break
@@ -776,7 +776,7 @@ case 'sourcode':
 case 'sourcodebot':
 menu = `Please stop by and don't forget to subscribe, like, comment, share.
 ${command} will continue to update, so stop by so you don't miss it
-https://youtube.com/channel/UCcnWMxH0nUbArCCkqubUeHA`
+https://youtube.com/channel/UCcnWMmH0nUbArCCkqubUeHA`
 reply(menu)
 break
 case 'cecan':
